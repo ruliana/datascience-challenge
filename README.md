@@ -4,6 +4,19 @@
 
 # Datascience Challenge
 
+## Running
+
+Fist run:
+
+    pipenv install
+    pipenv shell
+    python -m ipykernel install --user --name=<env-name>
+    jupyter notebook
+
+Once the kernel is installed:
+
+   pipenv run jupyter notebook
+
 ## Background
 
 We have collected user reviews on Glassdoor.com for various companies. The goal of this challenge is to build a classifier based on our psychological model (referred to as the O'Reilly Model).
