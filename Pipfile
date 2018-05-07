@@ -16,6 +16,9 @@ seaborn = "*"
 nltk = "*"
 scipy = "*"
 xgboost = "*"
+langdetect = "*"
+gensim = "*"
+
 
 
 [dev-packages]
